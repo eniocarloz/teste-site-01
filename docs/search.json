@@ -11,7 +11,7 @@
   ],
   "collections": []
 
-```{r setup, include=FALSE}
+  {```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 
 ```
@@ -49,4 +49,5 @@ hipotese a ser trabalhada: a intervenção estatal influencia na estimativa de p
 slice(dados_extrativismo) %>%
    ggpubr::ggboxplot(x = "Variável", y = "Valor", fill="Variável")
 ```
+}
 }
